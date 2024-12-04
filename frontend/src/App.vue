@@ -1,12 +1,12 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import wailsLogo from './/assets/images/logo-universal.png'
-import naiveLogo from './assets/images/naive-logo.svg'
+import HelloWorld from '@/components/HelloWorld.vue'
+import wailsLogo from '@/assets/images/logo-universal.png'
+import naiveLogo from '@/assets/images/naive-logo.svg'
 </script>
 
 <template>
   <div class="content">
-    <n-message-provider >
+    <n-message-provider>
       <n-grid x-gap="12" :cols="2">
         <n-grid-item>
           <n-image height="350" :src="wailsLogo" />
@@ -15,7 +15,7 @@ import naiveLogo from './assets/images/naive-logo.svg'
           <n-image height="350" :src="naiveLogo" />
         </n-grid-item>
       </n-grid>
-      <HelloWorld/>
+      <HelloWorld />
     </n-message-provider>
   </div>
 
