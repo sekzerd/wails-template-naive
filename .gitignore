@@ -115,3 +115,5 @@ go.sum
 /build
 
 frontend/package.json.md5
+/frontend/node_modules
+/frontend/dist
