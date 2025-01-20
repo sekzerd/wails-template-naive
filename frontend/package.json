@@ -1,7 +1,8 @@
 {
-  "name": "{{.ProjectName}}",
+  "name": "demo",
   "version": "1.0.0",
   "description": "",
+  "license": "Apache-2.0",
   "main": "",
   "scripts": {
     "dev": "vite",
@@ -18,5 +19,5 @@
     "vite": "^2.9.9"
   },
   "keywords": [],
-  "author": "{{.AuthorName}}"
+  "author": "demo_author"
 }
